@@ -9,8 +9,9 @@ const Header = () => {
     }
     return (
 
+        // md:bg-gradient-to-r md:from-[#d388ff41] md:via-white md:to-white
 
-        <div className="w-full bg-white md:bg-transparent flex items-center justify-between  md:bg-gradient-to-r md:from-[#d388ff41] md:via-white md:to-white">
+        <div className="w-full bg-white md:bg-transparent flex items-center justify-between  ">
             <div className='flex justify-between items-center w-full md:w-auto px-5 py-6'>
                 <div className="flex items-center font-Headline text-[#6765F0] justify-start">
 

@@ -8,8 +8,9 @@ import reebok from "../public/img/brand/reebok.png";
 import Image from 'next/image';
 import BannerImg from './BannerImg';
 const Banner = () => {
+    // bg-gradient-to-r from-[#d388ff41] via-white to-white
     return (
-        <div className=' p-5 pt-10 pb-0 bg-gradient-to-r from-[#d388ff41] via-white to-white flex justify-between items-center gap-4 flex-col md:flex-row '>
+        <div className=' p-5 pt-10 pb-0  flex justify-between items-center gap-4 flex-col md:flex-row '>
             <div className='gap-5 flex flex-col p-4  '>
                 <h1 className='text-5xl font-Headline leading-normal '>Healthy in side <span className='text-[#8382EB] '>fresh</span> out side</h1>
                 <p className='font-All text-[#26252463] '>

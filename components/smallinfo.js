@@ -1,8 +1,9 @@
 import React from 'react';
 
 const Smallinfo = () => {
+    // bg-gradient-to-r from-white via-[#d388ff15] to-white
     return (
-        <div className='flex gap-5 p-5 bg-gradient-to-r from-white via-[#d388ff15] to-white py-16 flex-col md:flex-row'>
+        <div className='flex gap-5 p-5  py-16 flex-col md:flex-row'>
             <div className='text-5xl font-Headline md:w-1/2'>
                 <h1>Healthy in side<br />fresh out side</h1>
             </div>

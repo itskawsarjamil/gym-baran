@@ -8,8 +8,9 @@ import baloon from '../public/img/baloon.png';
 import circle from '../public/img/circle.png';
 import Image from 'next/image';
 const ReviseBannerImg = () => {
+    // bg-[#6765f004]
     return (
-        <div className='w-full h-full relative flex items-center justify-center flex-col bg-[#6765f004] '>
+        <div className='w-full h-full relative flex items-center justify-center flex-col  '>
             <Image src={circle} className=' absolute z-10 w-1/2 lg:w-72 md:right-32 right-16' alt=''></Image>
             <Image src={ziczac} className=' absolute z-20 w-72 top-8' alt=''></Image>
             <Image src={sideimg} className=' z-40 w-1/2 -right-20' alt=''></Image>
