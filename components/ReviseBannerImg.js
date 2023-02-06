@@ -15,7 +15,7 @@ const ReviseBannerImg = () => {
             <Image src={ziczac} className=' absolute z-20 w-72 top-8' alt=''></Image>
             <Image src={sideimg} className=' z-40 w-1/2 -right-20' alt=''></Image>
 
-            <div className='flex gap-2 z-50 text-black p-3 py-2 bg-white rounded-md shadow-md absolute bottom-8 lg:bottom-16 left-10 lg:left-28'>
+            <div className='flex gap-2 z-50 text-black p-3 py-2 bg-white rounded-md custom-shadow absolute bottom-8 lg:bottom-16 left-10 lg:left-28'>
                 <Image src={lr} className=' bg-[#5478EF]  rounded-full p-2 ' alt=''></Image>
                 <div className=''>
                     <h2 className='font-bold '>800 kall</h2>
@@ -23,13 +23,13 @@ const ReviseBannerImg = () => {
                 </div>
             </div>
 
-            <div className='rounded-full z-50 bg-[#DD69C7] absolute top-8 md:top-16 left-24 md:left-44'>
+            <div className='custom-shadow rounded-full z-50 bg-[#DD69C7] absolute top-8 md:top-16 left-24 md:left-44'>
                 <Image src={kick} alt='' className='m-3 mx-3'></Image>
 
             </div>
           
 
-            <div className='rounded-full z-50 bg-[#4BACE1] absolute top-20 right-10 lg:right-28 lg:top-32 h-12 justify-center flex items-center w-12 shadow-lg'>
+            <div className='custom-shadow rounded-full z-50 bg-[#4BACE1] absolute top-20 right-10 lg:right-28 lg:top-32 h-12 justify-center flex items-center w-12 shadow-lg'>
                 <Image src={stretching} alt='' className='m-2 mx-3'></Image>
 
             </div>

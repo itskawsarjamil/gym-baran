@@ -20,7 +20,7 @@ export default function Home() {
 {/* bg-gradient-to-r from-[#d388ff15] to-white bg-[#d388ff15] */}
 
       </Head>
-      <main className=' max-w-[1236px] mx-auto bg-gradient'>
+      <main className=' max-w-[1236px] mx-auto bg-gradient p-5'>
         <div className=''>
           <Header></Header>
           <Banner></Banner>

@@ -16,24 +16,24 @@ const BannerImg = () => {
             <Image src={frontview} className=' z-40 w-1/2 -right-20' alt=''></Image>
 
             <div className='flex gap-2 z-50 text-black p-3 py-2 bg-white rounded-md shadow-md absolute top-16 left-0 lg:left-28'>
-                <Image src={kick} className=' bg-yellow-400  rounded-full p-2 ' alt=''></Image>
+                <Image src={kick} className='custom-shadow bg-yellow-400  rounded-full p-2 ' alt=''></Image>
                 <div className=''>
                     <h2 className='font-bold '>150+</h2>
                     <p className='text-xs '>Members</p>
                 </div>
             </div>
-            <div className='rounded-full z-50 bg-blue-400 absolute top-14 right-16'>
+            <div className='rounded-full z-50 custom-shadow bg-blue-400 absolute top-14 right-16 lg:right-32'>
                 <Image src={wave} alt='' className='m-3 mx-5'></Image>
 
             </div>
 
-            <div className='rounded-full z-50 bg-blue-400 absolute bottom-20 left-10 lg:left-28 h-16 justify-center flex items-center w-16 shadow-lg'>
+            <div className='custom-shadow rounded-full z-50 bg-blue-400 absolute bottom-20 left-10 lg:left-28 h-16 justify-center flex items-center w-16 shadow-lg'>
                 <Image src={pushup} alt='' className='m-2 mx-3'></Image>
 
             </div>
-            <div className='absolute  p-4 z-50 bg-white flex flex-col justify-center items-center bottom-8 md:bottom-12 right-8 rounded-lg shadow-lg'>
+            <div className='custom-shadow absolute  p-4 z-50 bg-white flex flex-col justify-center items-center bottom-8 md:bottom-12 right-8 rounded-lg shadow-lg'>
                 <div className='h-5 w-5 lg:h-10 lg:w-10 rounded-full bg-[#6765F0] flex justify-center items-center'>
-                    <Image src={gallery}></Image>
+                    <Image alt='' src={gallery}></Image>
                 </div>
                 <div className='text-black  flex flex-col justify-center items-center'>
                     <h2 className='font-bold '>Zaqky Simorang</h2>

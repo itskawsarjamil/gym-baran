@@ -17,23 +17,23 @@ const Banner = () => {
                     Exercise is a very important need for our body. Health and <br></br>fitness will be obtained if you can do regular exercise and <br></br>run a healthy routine.
                 </p>
                 <div className='flex gap-4 '>
-                    <button className='flex  justify-between items-center gap-4 lg:w-[246px] bg-[#264373] text-white p-2 rounded'>
+                    <button className='flex  justify-evenly  items-center gap-4 lg:w-[246px] bg-[#264373] text-white px-3 lg:px-2 py-3 rounded-xl custom-shadow'>
                         Get Started
-                        <MdKeyboardArrowRight className='bg-white text-black text-lg rounded-lg'></MdKeyboardArrowRight>
+                        <MdKeyboardArrowRight className='bg-white text-black h-7 w-7 p-1  text-lg rounded-full'></MdKeyboardArrowRight>
                     </button>
-                    <button className='flex  justify-center gap-4 items-center lg:w-[174px] bg-white text-black p-2 rounded shadow-[0px_20px_80px_rgba(51, 78, 123, 0.3)]'>
+                    <button className='flex  justify-center gap-4 items-center lg:w-[174px] bg-white text-black px-3 lg:px-1 py-3 rounded-xl custom-shadow'>
 
-                        <BiRightArrow className='bg-white text-black text-lg rounded-lg'></BiRightArrow>
+                        <BiRightArrow className='bg-black text-white h-6 lg:h-7 w-6 lg:w-7 p-1  text-lg rounded-full'></BiRightArrow>
                         Learn more
                     </button>
                 </div>
                 <div>
-                    <p className='fontt-All'>Brands:</p>
-                    <div className='flex text-black gap-5'>
-                        <Image className='w-12' src={nike} alt='' />
-                        <Image className='w-12' src={adidas} alt="" />
-                        <Image className='w-12' src={puma} alt="" />
-                        <Image className='w-12' src={reebok} alt="" />
+                    <p className='font-All mt-5 text-gray-600'>Brands:</p>
+                    <div className='flex text-black gap-10 mt-4'>
+                        <Image className='w-auto h-6 lg:h-10' src={nike} alt='' />
+                        <Image className='w-auto h-6 lg:h-10' src={adidas} alt="" />
+                        <Image className='w-auto h-6 lg:h-10' src={puma} alt="" />
+                        <Image className='w-auto h-6 lg:h-10' src={reebok} alt="" />
                     </div>
                 </div>
             </div>
